@@ -10,7 +10,6 @@ export default class Keybinds {
     }
 
     onKeyDown(e) {
-        console.log('Keydown')
         //event.preventDefault();
         const { keyCode } = e
 

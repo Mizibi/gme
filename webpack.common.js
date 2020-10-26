@@ -39,7 +39,7 @@ module.exports = merge({
       },
 
       {
-        test: /\.(gltf|mp3|svg|glb|png|jpe?g)$/,
+        test: /\.(gltf|fbx|mp3|svg|glb|png|jpe?g)$/,
         use: [
           {
             loader: 'file-loader',

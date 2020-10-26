@@ -9,7 +9,9 @@
   "author": "DABARD Kilian",
   "license": "ISC",
   "dependencies": {
+    "cannon": "^latest",
     "three": "^latest",
+    "three-to-cannon": "^3.0.2",
     "threejs-orbit-controls": "^1.0.3"
   },
   "devDependencies": {
@@ -20,7 +22,7 @@
     "source-map-loader": "^0.2.4",
     "style-loader": "^1.0.0",
     "terser-webpack-plugin": "^1.4.1",
-    "typescript": "latest",
+    "typescript": "^4.0.3",
     "webpack": "^4.39.2",
     "webpack-cleanup-plugin": "^0.5.1",
     "webpack-cli": "^3.3.7",
